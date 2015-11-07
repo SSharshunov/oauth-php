@@ -1,19 +1,11 @@
 {
     "name": "vendor/oauth-php",
     "description": "OAuth - Consumer and Server library for PHP",
-    "authors": [
-        {
-            "name": "Mediamatic Lab",
-            "email": "help@mediamatic.com"
-        }
-    ],
-    "minimum-stability": "dev",
+    "license": "MIT License",
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3"
     },
     "autoload": {
-        "psr-0": {
-            "HelloWorld": "library/"
-        }
+        "classmap": ["library/"]
     }
 }
