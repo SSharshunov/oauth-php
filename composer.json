@@ -2,6 +2,7 @@
     "name": "vendor/oauth-php",
     "description": "OAuth - Consumer and Server library for PHP",
     "license": "MIT License",
+    "version": "1.0.0",
     "require": {
         "php": ">=5.3"
     },
